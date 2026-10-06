@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www.geoacestudio.com" }],
+      "destination": "https://geoacestudio.com/:path",
+      "permanent": true
+    }
+  ]
+}
