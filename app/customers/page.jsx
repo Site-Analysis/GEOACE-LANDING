@@ -52,7 +52,7 @@ export default function Customers() {
           </div>
         </section>
       </main>
-      <footer className="cust-footer"><span>GeoAce Studio Pvt Ltd</span></footer>
+      <footer className="cust-footer"><span>© 2026 GeoAce Studio Pvt Ltd. All rights reserved.</span></footer>
     </div>
   );
 }

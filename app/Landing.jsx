@@ -160,7 +160,7 @@ export default function Landing() {
           <div className="layer-tags" aria-hidden="true"><span>ARCHITECTURE</span><span>ENGINEERING</span><span>TECHNOLOGY</span></div>
           <footer ref={footerRef}>
             <p>It all starts with a conversation. <button type="button" className="contact-btn" aria-expanded={contactOpen} aria-controls="contact-menu" onClick={() => setContactOpen(o => !o)}>Get in touch?</button></p>
-            <span>GeoAce Studio Pvt Ltd</span>
+            <span>© 2026 GeoAce Studio Pvt Ltd</span>
             {contactOpen && (
               <div className="contact-menu" id="contact-menu" role="group" aria-label="Contact options">
                 <a href="mailto:contact@geoacestudio.com"><small>MAIL</small><strong>contact@geoacestudio.com</strong></a>
